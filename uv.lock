@@ -1745,7 +1745,7 @@ wheels = [
 [[package]]
 name = "mylangchain-uv-project"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "docx2txt" },
     { name = "faiss-cpu" },
